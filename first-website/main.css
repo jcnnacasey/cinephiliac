@@ -1,0 +1,31 @@
+body{
+    background-color:lavender;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1, h2 {
+    font-size: 30px;
+    color:blueviolet;
+}
+
+p {
+    color:rgb(0, 21, 255);
+    background-color:lavender;
+    font-size: 30px;
+    border: 4px dotted blue;
+    padding: 50px;
+    text-align: center;
+}
+
+.special {
+    background-color:beige;
+}
+
+.highlight {
+    color:rgb(60, 120, 0);
+}
+
+img {
+    max-width: 100%;
+}

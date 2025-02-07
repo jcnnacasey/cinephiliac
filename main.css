@@ -1,7 +1,19 @@
 body {
     background-image: url(seven.gif);
     background-size: 100%;
+    background-attachment: fixed;
 }
+
+@font-face {
+    font-family: heading;
+    src: url(GothicPixels\ copy.ttf)
+}
+
+@font-face {
+    font-family: body;
+    src: url(Uni\ Sans\ Thin\ Italic.otf);
+}
+
 p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:lighter;
@@ -11,8 +23,9 @@ p {
 
 h1 {
     text-align: center;
-    font-family:cursive;
-    color:bisque
+    font-family:heading;
+    color:bisque;
+    font-size: 40px;
 }
 
 h5 {

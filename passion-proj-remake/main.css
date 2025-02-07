@@ -1,0 +1,78 @@
+/* div { */
+    /* column-count: 2; */
+    /* column-gap: 25px; */
+    /* column-width: 100px;} */
+
+/* .synopsis { */
+    /* text-align: left;} */
+
+/* .reference { */
+    /* text-align: right;} */
+
+h1 {
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    font-family: heading;
+}
+
+@font-face {
+    font-family: heading;
+    src: url(GothicPixels.ttf);
+}
+
+@font-face {
+    font-family: body;
+    src: url(Mellow.otf)
+}
+
+*{background-color:rgb(255, 236, 236)}
+*{background-image: url(lala.png);
+background-repeat: repeat;
+background-size: 20%;}
+
+ul {
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    border: 2px solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+a {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, ul {
+    color:black;
+    font-size: 16px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+details {
+    text-align: center;
+    color:black;
+    font-family: heading;
+    font-size: smaller;
+    p {
+        font-size: 14px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+}
+
+.weird {
+    p{
+        font-family: heading;
+        color: darkred;
+    }
+}
+
+.aligncenter {
+    width: 100%
+}

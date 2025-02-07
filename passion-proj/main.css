@@ -1,24 +1,65 @@
 h1 {
-    font-size: 20px;
-    color:darkslategrey;
+    font-size: 40px;
+    color:slategray;
     text-align: center;
-    font-family:monospace
+    font-family: heading;
 }
 
-*{background-color:ivory}
+details {
+    text-align: center;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+    p {
+        font-size: 10px;
+    }
+}
+
+@font-face {
+    font-family: heading;
+    src: url(GothicPixels.ttf);
+}
+
+@font-face {
+    font-family: body;
+    src: url(Mellow.otf)
+}
+
+*{background-color:black}
+*{background-image: url(text.png);
+background-repeat: no-repeat;
+background-size: 100%;}
 
 p, ul {
-    color:cadetblue;
+    color:white;
     font-size: 16px;
     text-align: center;
-    font-family:monospace
+    font-family:'Courier New', Courier, monospace
+}
+
+ul {
+    list-style-type: none;
 }
 
 img{
-    width: 75%;
+    width: 50%;
     text-align: center;
+    border: 2px dotted;
+    border-width: 5px;
+    border-color: antiquewhite;
 }
 
 .aligncenter {
     text-align: center;
+}
+
+a {
+    color: slategray
+}
+
+hr {
+    border-color: darkslategray;
+    height: 0px;
+    width: 100%;
+    border-width: 10px;
 }

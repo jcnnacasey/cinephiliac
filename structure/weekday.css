@@ -1,0 +1,57 @@
+body {
+    background-color:#ffffa6;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.day {
+    height:400px;
+    width: 700px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+}
+
+.day-item {
+    background-color:#ffffa6;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#text {
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color:#ffffa6;
+}
+
+button {
+    position: absolute;
+    /* left: 50%; /* Moves button to the middle horizontally */
+    /* transform: translate(-50%, -50%); Centers the button */
+    /* padding: 10px 20px; */
+    background-color: #ffffa6;
+    border: 1px solid black;
+}
+
+img {
+    width: 45%;
+    padding: 20px
+}

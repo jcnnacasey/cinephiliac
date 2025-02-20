@@ -113,13 +113,19 @@ p {
 
 h2 {
     text-align: center;
-    font-size: 10pt;
+    font-size: 55pt;
     flex-direction: column;
     justify-content:center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     align-items: center;
 }
 
 a {
     color: black;
+}
+
+.wait {
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
 }

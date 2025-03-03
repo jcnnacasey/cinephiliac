@@ -59,3 +59,9 @@ body {
         transform: rotate(360deg);
     }
 }
+
+.mover {
+    background-color: lightgoldenrodyellow;
+    width: 100px;
+    height: 300px;
+}

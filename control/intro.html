@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>crime report</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <button class="menu-btn" onclick="change()">menu</button>
+
+        <div class="menu">
+            files to look at:
+            <br>
+            <ol>
+                <li><a href="intro.html"> crime report</a></li>
+                <li><a href="witness.html">witness statement one</a></li>
+                <li><a href="witness2.html">witness statement two</a></li>
+                <li><a href="suspect1.html">suspect one</a></li>
+                <li><a href="suspect2.html">suspect two</a></li>
+                <li><a href="suspect3.html">suspect three</a></li>
+                <li><a href="suspect4.html">suspect four</a></li>
+                <li><a href="evidence.html">evidence</a></li>
+            </ol>
+          </div>
+
+          <script>    
+            var menu = document.querySelector(".menu");
+
+            function change() {
+              console.log('button clicked');
+           
+
+              menu.classList.toggle("active");
+            }
+        </script>
+
+        <!-- <div class="box">
+            <div class="box-item">
+                <p id="text">a recap of the crime</p>
+                <br>
+                <p id="text">on december 29th, 2024 at 11:04pm there was a robbery reported at a home in wichita, kansas. nobody was injured, but a piece of priceless art was stolen. we think this was the work of known professional art smuggler, kyle johanson. however, we have never been able to catch him as he never commits the crimes himself. we need your help getting close to him, and our only way to do that is to uncover who he paid off for this crime. </p>
+            </div>
+        </div> -->
+
+        <img src="report.jpg" alt="fake police report form filled out to include information about a robbery of priceless art">
+
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>

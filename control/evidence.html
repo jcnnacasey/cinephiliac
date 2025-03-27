@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>evidence</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- <a href="index.html">
+        <button>back to start</button>
+    </a> -->
+
+        <button class="menu-btn" onclick="change()">menu</button>
+        
+        <div class="menu">
+            files to look at:
+            <br>
+            <ol>
+                <li><a href="intro.html"> crime report</a></li>
+                <li><a href="witness.html">witness statement one</a></li>
+                <li><a href="witness2.html">witness statement two</a></li>
+                <li><a href="suspect1.html">suspect one</a></li>
+                <li><a href="suspect2.html">suspect two</a></li>
+                <li><a href="suspect3.html">suspect three</a></li>
+                <li><a href="suspect4.html">suspect four</a></li>
+                <li><a href="evidence.html">evidence</a></li>
+            </ol>
+            <a class="final" href="solve.html"><em>solve the case!</em></a>
+          </div>
+
+          <script>    
+            var menu = document.querySelector(".menu");
+
+            function change() {
+              console.log('button clicked');
+           
+
+              menu.classList.toggle("active");
+            }
+        </script>
+
+        <img class="hair" src="strand.webp" alt="a strand of brown hair" id="hair" onclick="hideinfo1()">
+
+        <img class="print" src="print.webp" alt="a blue fingerprint" id="finger" onclick="hideinfo2()">
+
+        <div class="container">
+            <div class="info-1" id="strand">
+                <p class="p2">at the scene of the crime, the police found a strand of brunette hair on the floor in front of the broken door</p>
+            </div>
+            <div class="info-2" id="print">
+                <p class="p2">at the scene of the crime, a thumbprint was found on the left side of the doorknob</p>
+            </div>
+        </div>
+
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+
+</html>

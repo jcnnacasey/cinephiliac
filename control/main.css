@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    width: 75%;
+    max-width: 100%;
+}
+
+body {
+    background: black;
+    text-align: center;
+    margin: 0;
+    transition: background .5s;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 75pt;
+}
+
+.menu-btn {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: white solid 1px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    stroke: white solid 1px;
+    position: relative;
+    /* left: 10px; */
+    top: 50px;
+    /* gap: 30px; */
+    /* display: inline; */
+}
+
+#text {
+    padding: 20px;
+    color: black;
+    font-size: 22pt;
+}
+
+.menu {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100vh;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    transition: right 1s;
+}
+
+.menu.active {
+    right: 0px;
+  }
+
+a {
+    color: black;
+}
+
+#single {
+    width: 38%;
+}
+
+.container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    /* height: 100vh; */
+}
+
+.intro {
+    height:100px;
+    width: 700px;
+    position: fixed;
+    display:flex;
+    left: 375px;
+    top: 225px;
+    gap: 10px;
+    text-align: center;
+    vertical-align: center;
+    /* line-height: 100px;  */
+}
+
+.intro-item {
+    width: 100%;
+}
+
+#email {
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+}
+
+#big {
+    width: 100%;
+}
+
+#shift {
+    position: fixed;
+    left: 250px;
+}
+
+.hair {
+    width: 20%;
+    position: fixed;
+    left: 250px;
+    top: 180px;
+}
+
+.print {
+    width: 20%;
+    position: fixed;
+    right: 250px;
+    top: 256px;
+}
+
+.final {
+    color: red;
+}
+
+.buttons-container { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; align-items: center; 
+}
+
+body.correct {
+        background: green;
+}
+
+body.incorrect {
+    background: red;
+}
+
+.correct {
+    display: none;
+}
+
+.correct.luigi {
+    display: block;
+    width: 100%;
+}
+
+.incorrect {
+    display: none;
+}
+
+.incorrect.porter {
+    display: block;
+    width: 100%;
+}
+
+.incorrect.crowe {
+    display: block;
+    width: 100%;
+}
+
+.incorrect.box {
+    display: block;
+    width: 100%;
+}
+
+.start-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.container {
+    /* background-color:black; */
+    padding: 10px;
+    height:500px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.info-1 {
+    /* background: black; */
+    border: solid white 1px;
+    padding: 10px;
+    border: 1px solid;
+    width:200px;
+    position: fixed;
+    left: 450px;
+    visibility: hidden;
+}
+
+#strand {
+    font-size: 15px;
+}
+
+#print {
+    font-size: 15px;
+}
+
+.info-2 {
+    /* background: black; */
+    border: solid white 1px;
+    padding: 10px;
+    border: 1px solid;
+    width:200px;
+    position: fixed;
+    left: 935px;
+    top: 490px;
+    /* display: none; */
+    visibility: hidden;
+}
+
+.p2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}

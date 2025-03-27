@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>victim statement</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <button onclick="change()">menu</button>
+        
+        <div class="menu">
+            files to look at:
+            <br>
+            <ol>
+                <li><a href="intro.html"> crime report</a></li>
+                <li><a href="witness.html">witness statement one</a></li>
+                <li><a href="witness2.html">witness statement two</a></li>
+                <li><a href="victim.html">victim statement</a></li>
+                <li><a href="suspect1.html">suspect one</a></li>
+                <li><a href="suspect2.html">suspect two</a></li>
+                <li><a href="suspect3.html">suspect three</a></li>
+            </ol>
+          </div>
+
+          <script>    
+            var menu = document.querySelector(".menu");
+
+            function change() {
+              console.log('button clicked');
+           
+
+              menu.classList.toggle("active");
+            }
+        </script>
+
+    </body>
+
+</html>

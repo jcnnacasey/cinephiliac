@@ -1,0 +1,12 @@
+$(".dark-btn").click(
+    function(){
+    $(".rightpanel").toggleClass("dark");
+    $(".image").toggleClass("dark");
+    $(".text").toggleClass("dark");
+    $(".h1").toggleClass("dark");
+    $("a").toggleClass("dark");
+    $(".caption").toggleClass("dark");
+    $(".switch").toggleClass("dark");
+    $(".dark-btn").toggleClass("dark");
+  }
+);
